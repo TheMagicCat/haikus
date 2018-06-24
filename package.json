@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/TheMagicCat/haikus/issues"
   },
-  "homepage": "https://github.com/TheMagicCat/haikus#readme"
+  "homepage": "https://github.com/TheMagicCat/haikus#readme",
+  "dependencies": {
+    "haikunator": "^2.0.0"
+  },
+  "bin": {
+    "haiku": "./haiku.js"
+  }
 }
